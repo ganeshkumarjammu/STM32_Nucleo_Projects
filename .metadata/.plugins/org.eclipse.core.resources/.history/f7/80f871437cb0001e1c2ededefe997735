@@ -1,0 +1,43 @@
+
+
+#include <stdint.h>
+int main(void)
+{
+	//RCC Base Address  =  0x4002 3800
+	//GPIOA Base Address = 0x4002 0000
+
+	//RCC AHB1 peripheral clock enable register (RCC_AHB1ENR)
+	//Address offset: 0x30
+	//Reset value: 0x0000 0000
+
+	// AHB1ENR = RCC Base Address + Address offset
+
+	//GPIO port output data register (GPIOx_ODR) (x = A..H)
+	//Address offset: 0x14
+	//Reset value: 0x0000 0000
+
+	//ODR = GPIOA + GPIO Address OFFSET
+
+	//Clearing Bit AND Operation
+	//Setting Bit OR Operation
+
+	uint32_t *AHB1ENR = (uint32_t*)0x40023830;
+	uint32_t *MODER = (uint32_t*)0x40020000;
+	uint32_t *ODR = (uint32_t*)0x40020014;
+
+	*AHB1ENR |=0x01;
+	*MODER &=0XFFFFF3FF;
+	//why 3 : Mode[5-4] = [00-11] => hex decimal3
+	*MODER |=0X00000400;
+	//why 4: Mode5 should be 01 to turn on OUTPUT Mode and mode 4 should not get effected
+	//mode5 => 01 and mode 4 = 00 OR operation => 0100 => hex code 4
+//	*ODR |=0x0;
+//while (1){
+//	*ODR |=0x20;
+//	for(int i = 0;i<=100000;i++){
+//	}
+	*ODR &=0xFFFFFF0F;
+//	for(int i = 0;i<=100000;i++){
+//	}
+//}
+}

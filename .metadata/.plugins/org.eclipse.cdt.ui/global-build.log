@@ -1,0 +1,172 @@
+16:27:18 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-size   Blinking_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+16:28:29 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-size   Blinking_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+16:33:22 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-size   Blinking_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+16:33:41 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-size   Blinking_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+17:45:32 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    776	      8	   1568	   2352	    930	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:52:11 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:52:43 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    788	      8	   1568	   2364	    93c	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:53:15 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    788	      8	   1568	   2364	    93c	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:53:44 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:54:28 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:55:08 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+17:58:58 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:36:6: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+   36 |      delay(1000);
+      |      ^~~~~
+../Src/main.c: At top level:
+../Src/main.c:42:6: warning: conflicting types for 'delay'; have 'void(int)'
+   42 | void delay(int sec){
+      |      ^~~~~
+../Src/main.c:36:6: note: previous implicit declaration of 'delay' with type 'void(int)'
+   36 |      delay(1000);
+      |      ^~~~~
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    868	      8	   1568	   2444	    98c	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+18:01:13 **** Incremental Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Blinking_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\jammu\STM32CubeIDE\workspace_1.13.2\Blinking_LED\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Blinking_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Blinking_LED.elf
+ 
+arm-none-eabi-size   Blinking_LED.elf 
+arm-none-eabi-objdump -h -S  Blinking_LED.elf  > "Blinking_LED.list"
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+Finished building: Blinking_LED.list
+ 
+10:47:35 **** Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-size   Blinking_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 

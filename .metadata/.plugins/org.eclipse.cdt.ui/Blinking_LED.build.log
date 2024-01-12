@@ -1,0 +1,10 @@
+10:47:35 **** Build of configuration Debug for project Blinking_LED ****
+make -j8 all 
+arm-none-eabi-size   Blinking_LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    844	      8	   1568	   2420	    974	Blinking_LED.elf
+Finished building: default.size.stdout
+ 
+
+10:47:36 Build Finished. 0 errors, 0 warnings. (took 1s.63ms)
+
